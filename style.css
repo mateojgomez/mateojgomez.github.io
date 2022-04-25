@@ -1,0 +1,49 @@
+body{
+    background: linear-gradient( hsl(1, 70%, 70%), hsl(60, 82%, 57%),hsl(1, 70%, 70%));
+    background-repeat:no-repeat;
+    display: flex;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    flex-direction: column;
+}
+
+.contenedor{
+}
+hr.rounded {
+    border-top: 6px solid rgb(0, 0, 0,0.7);
+    border-radius: 5px;
+    width:70%;
+  }
+table,th,td{
+    
+    margin: auto;
+    border: 1.3px solid black;
+    border-collapse: collapse;
+}
+td{
+    text-align: left;
+    padding-left: 7px;
+}
+ul{
+    text-align: left;
+}
+nav{
+    padding-left: 45% ;
+    padding-right: 45% ;
+    text-align: center;
+}
+
+#main{
+    text-align: center;
+
+}
+p{
+    text-align: justify;
+}
+#image-caption{
+    text-align: center;
+}
+.imagen{
+    width: 30%;
+    align-items: center;
+
+}
